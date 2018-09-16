@@ -4,7 +4,7 @@
 
 
 
-**1. "Ctrl"Alt"F1"**
+**1. "Ctrl"Alt"F1"**   
 Switch to the first text terminal. Under Linux you can have several (6 in standard setup) terminals opened at the same time.
   
 **2. "Ctrl"Alt"Fn" (n=1..6)**
