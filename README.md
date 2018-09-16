@@ -7,7 +7,7 @@
 **1. "Ctrl"Alt"F1"**   
 Switch to the first text terminal. Under Linux you can have several (6 in standard setup) terminals opened at the same time.
   
-**2. "Ctrl"Alt"Fn" (n=1..6)** 
+**2. "Ctrl"Alt"Fn" (n=1..6)**   
 Switch to the nth text terminal.
   
 **3. tty**  
@@ -28,8 +28,8 @@ Open new terminal window
   
 **8. Uname**  
 Print system information, print information about the machine and operating system it is run on.
-* Uname -a 
-* Uname --all  
+* **Uname -a** 
+* **Uname --all**  
 Print all of information.
 
 **9. Echo**   
@@ -49,11 +49,11 @@ Print Working Directory (shell builtin)
 
 **13. ls**  
 List information about files.
-* ls -l
+* **ls -l** 
  Use a long listing format   
-* ls -a
+* **ls -a** 
   List all entries including those starting with a dot .
-* ls -la
+* **ls -la**  
   list everything in a vertical list
  
  
