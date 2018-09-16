@@ -49,11 +49,11 @@ Print Working Directory (shell builtin)
 
 **13. ls**  
 List information about files
-* **ls -l**
+* **ls -l**          
  Use a long listing format    
-* **ls -a**
+* **ls -a**          
   List all entries including those starting with a dot  
-* **ls -la**
+* **ls -la**          
   list everything in a vertical list  
  
  
