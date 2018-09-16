@@ -28,32 +28,32 @@ Open new terminal window
   
 **8. Uname**  
 Print system information, print information about the machine and operating system it is run on.
-8.1. Uname -a
-     Uname --all
+*8.1. Uname -a
+     Uname --all*
 Print all of information.
 
-**9. Echo** 
+**9. Echo**   
 Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one.
-9.1. Echo $0
+*9.1. Echo $0*
 Display name of running program
 
-**10. Who** 
+**10. Who**   
 Print who is currently logged in
 
 **11. Whoami**  
 Print the current user id and name. Same as id -un.
 
-**12. pwd** 
+**12. pwd**  
 Print Working Directory (shell builtin)
 > /home/username
 
 **13. ls**  
 List information about files.
-13.1. ls -l
+*13.1. ls -l*
  Use a long listing format   
-13.2. ls -a
+*13.2. ls -a*
   List all entries including those starting with a dot .
-13.3. ls -la
+*13.3. ls -la*
   list everything in a vertical list
  
  
