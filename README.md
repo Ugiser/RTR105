@@ -24,7 +24,7 @@ Open new terminal window
   
 **7. Man**  
  Format and display help pages
-  $ man uname
+ > $ man uname
   
 **8. Uname**  
 Print system information, print information about the machine and operating system it is run on
@@ -34,7 +34,7 @@ Print all of information
 
 **9. Echo**   
 Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one
-*9.1. Echo $0*
+* **Echo $0**
 Display name of running program
 
 **10. Who**   
