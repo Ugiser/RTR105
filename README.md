@@ -1,6 +1,7 @@
 # RTR105  
 ##Datormācības kursa elektroniskā klade  
-###2.nodarbībā izmantotās Linux programmas  
+###2.nodarbībā izmantotās Linux 
+
 
 **1.pdw**    
 Atrašanās failu sistēmā  
