@@ -17,7 +17,8 @@ Print the name of the terminal in which you are typing this command
 (In a text terminal) Autocomplete the command  if there is only one option, or else show all the available options   
 **7. Man**  
  Format and display help pages
- > $ man uname   
+ > $ man uname  
+ 
 **8. Uname**  
 Print system information, print information about the machine and operating system it is run on
 * **Uname -a** 
