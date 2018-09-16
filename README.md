@@ -28,8 +28,8 @@ Open new terminal window
   
 **8. Uname**  
 Print system information, print information about the machine and operating system it is run on.
-*8.1. Uname -a
-     Uname --all*
+-Uname -a 
+-Uname --all  
 Print all of information.
 
 **9. Echo**   
@@ -49,11 +49,11 @@ Print Working Directory (shell builtin)
 
 **13. ls**  
 List information about files.
-*13.1. ls -l*
+-ls -l
  Use a long listing format   
-*13.2. ls -a*
+-ls -a
   List all entries including those starting with a dot .
-*13.3. ls -la*
+-ls -la
   list everything in a vertical list
  
  
