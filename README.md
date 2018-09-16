@@ -1,6 +1,6 @@
 # RTR105  
-##Datormācības kursa elektroniskā klade  
-###2.nodarbībā izmantotās Linux 
+## Datormācības kursa elektroniskā klade  
+### 2.nodarbībā izmantotās Linux 
 
 
 **1.pdw**    
