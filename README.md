@@ -18,7 +18,7 @@ Open new terminal window
 **5. tty**  
 Print the name of the terminal in which you are typing this command
   
-**6. "Tab"**  
+**6. Tab**  
 (In a text terminal) Autocomplete the command  if there is only one option, or else show all the available options 
   
 **7. Man**  
