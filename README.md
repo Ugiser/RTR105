@@ -23,11 +23,13 @@ Print the name of the terminal in which you are typing this command
 Print system information, print information about the machine and operating system it is run on
 * **Uname -a** 
 * **Uname --all**  
-Print all of information   
+Print all of information
+
 **9. Echo**   
 Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one
 * **Echo $0**
-Display name of running program   
+Display name of running program  
+
 **10. Who**   
 Print who is currently logged in   
 **11. Whoami**  
@@ -35,6 +37,7 @@ Print the current user id and name. Same as id -un
 **12. pwd**  
 Print Working Directory (shell builtin)
 > /home/username  
+
 **13. ls**  
 List information about files
 * **ls -l**          
