@@ -4,50 +4,50 @@
 
 
 
-1. **<Ctrl><Alt><F1>** 
+**1. <Ctrl><Alt><F1>**_____
 Switch to the first text terminal. Under Linux you can have several (6 in standard setup) terminals opened at the same time.
   
-**2. <Ctrl><Alt><Fn> (n=1..6)**
+**2. <Ctrl><Alt><Fn> (n=1..6)**_____
 Switch to the nth text terminal.
   
-**3. tty**
+**3. tty**_____
 Print the name of the terminal in which you are typing this command.
 
-**4. <Ctrl><Alt><F7> **
+**4. <Ctrl><Alt><F7> **_____
 Switch to the first GUI terminal (if X-windows is running on this terminal).
   
-**5. <Tab>**
+**5. <Tab>**_____
 (In a text terminal) Autocomplete the command  if there is only one option, or else show all the available options. 
   
-**6.<Ctrl><Alt><t>**
+**6.<Ctrl><Alt><t>**_____
 Open new terminal window
   
-**7. Man**
+**7. Man**_____
  Format and display help pages
   $ man uname
   
-**8. Uname**
+**8. Uname**_____
 Print system information, print information about the machine and operating system it is run on.
 8.1. Uname -a
      Uname --all
 Print all of information.
 
-**9. Echo**
+**9. Echo**_____
 Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one.
 9.1. Echo $0
 Display name of running program
 
-**10. Who**
+**10. Who**_____
 Print who is currently logged in
 
-**11. Whoami**
+**11. Whoami**_____
 Print the current user id and name. Same as id -un.
 
-**12. pwd**
+**12. pwd**_____
 Print Working Directory (shell builtin)
 */home/username*
 
-**13. ls**
+**13. ls**_____
 List information about files.
 13.1. ls -l
  Use a long listing format   
