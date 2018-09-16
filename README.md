@@ -47,10 +47,10 @@ List information about files
 * **ls -la**          
   list everything in a vertical list  
  > total 109
-drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./ 
-drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../  
-drwxr-xr-x 2 root root 4096 Jun 9 21:14 bin/  
-drwxr-xr-x 3 root root 1024 Jun 9 20:32 boot/ 
+drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./   
+drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../    
+drwxr-xr-x 2 root root 4096 Jun 9 21:14 bin/    
+drwxr-xr-x 3 root root 1024 Jun 9 20:32 boot/   
 drwxr-xr-x 6 root root 36864 Jul 12 10:26 dev/  
 drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/  
  
