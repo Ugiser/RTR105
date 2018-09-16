@@ -3,24 +3,23 @@
 ### 2.nodarbībā izmantotās Linux komandas
 
 
-
 **1. "Ctrl"Alt"F1"**   
 Switch to the first text terminal. Under Linux you can have several (6 in standard setup) terminals opened at the same time
   
 **2. "Ctrl"Alt"Fn" (n=1..6)**   
 Switch to the nth text terminal
-  
-**3. tty**  
-Print the name of the terminal in which you are typing this command
 
-**4. "Ctrl"Alt"F7"**  
+**3. "Ctrl"Alt"F7"**  
  Switch to the first GUI terminal (if X-windows is running on this terminal)
-  
-**5. "Tab"**  
-(In a text terminal) Autocomplete the command  if there is only one option, or else show all the available options 
-  
-**6."Ctrl"Alt"t"**  
+
+**4."Ctrl"Alt"t"**  
 Open new terminal window
+
+**5. tty**  
+Print the name of the terminal in which you are typing this command
+  
+**6. "Tab"**  
+(In a text terminal) Autocomplete the command  if there is only one option, or else show all the available options 
   
 **7. Man**  
  Format and display help pages
