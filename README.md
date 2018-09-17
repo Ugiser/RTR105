@@ -4,28 +4,23 @@
 
 
 **1. "Ctrl"Alt"F1"**  
-Switch to the first text terminal. Under Linux you can have several (6 in standard setup) terminals opened at the same time  
+Switch to the first text terminal. Under Linux you can have several (6 in standard setup) terminals opened at the same time
+
 **2. "Ctrl"Alt"Fn" (n=1..6)**  
-Switch to the nth text terminal  
+Switch to the nth text terminal 
+
 **3. "Ctrl"Alt"F7"**  
- Switch to the first GUI terminal (if X-windows is running on this terminal)  
+ Switch to the first GUI terminal (if X-windows is running on this terminal)
+ 
 **4."Ctrl"Alt"t"**  
-Open new terminal window  
-**5. tty**  
-Print the name of the terminal in which you are typing this command
-> /dev/pts/0
+Open new terminal window 
 
-**6. Tab**  
-(In a text terminal) Autocomplete the command if there is only one option, or else show all the available options
-> Command 'unnname' not found, did you mean:  
-command 'uname' from deb uucp
-
-**7. Man**  
+**5. Man**  
  Format and display help pages
  > man uname
  uname - print system information
  
-**8. Uname**  
+**6. Uname**  
 Print system information, print information about the machine and operating system it is run on
 > Linux
 
@@ -34,24 +29,33 @@ Print system information, print information about the machine and operating syst
 Print all of information
 >Linux ugiser-virtualbox 4.15.0 29 generic #31 ubuntu SMP Tue Jul Time UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 
-**9. Echo**   
+**7. Echo**   
 Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one
 * **Echo $0** 
 Display name of running program
 >bash
 
-**10. Who**   
+**8. Who**   
 Print who is currently logged in
 > ugiser  :0      2018-09-17 8:19 (:0)
   ugiser  tty6    2018-09-17 8:22
   
-**11. Whoami**  
+**9. Whoami**  
 Print the current user id and name. Same as id -un
 > ugiser
 
-**12. pwd**  
+**10. pwd**  
 Print name of current working directory 
 > /home/username  
+
+**11. tty**  
+Print the name of the terminal in which you are typing this command
+> /dev/pts/0
+
+**12. Tab**  
+(In a text terminal) Autocomplete the command if there is only one option, or else show all the available options
+> Command 'unnname' not found, did you mean:  
+command 'uname' from deb uucp
 
 **13. ls**  
 List directory contents
