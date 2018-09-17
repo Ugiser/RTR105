@@ -16,9 +16,9 @@ Pārslēdzas uz 1.GUI termināli
 Atver jaunu termināļa logu 
 
 **5. man (manual)**  
-Sniedz informāciju par citām komandām, tās argumentā norādot interesējošo komandu 
+Sniedz informāciju par citām komandām, tās argumentā norādot interesējošo komandu  
 Lai aizvērtu aprakstu, lieto klaviatūras taustiņu Q
- > man uname 
+ > man uname  
  uname - print system information
  
 **6. uname**  
