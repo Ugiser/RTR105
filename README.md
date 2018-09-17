@@ -85,7 +85,7 @@ drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
 Maina pašreizējās termināļa sesijas darba mapi 
 Komandu lieto kā tās argumentu, uzdodot jaunās darba mapes nosaukumu 
  
-**15.cp (copy)**   
+**15. cp (copy)**   
 Kopē datnes un mapes
  
 **16. exit**  
