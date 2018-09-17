@@ -62,7 +62,7 @@ List directory contents
 * **ls -a**          
   List all entries including those starting with a dot  
 * **ls -la**          
-  list everything in a vertical list 
+  list everything in a vertical list  
       *d - directory*  
       *r - reading*  
       *w - writing*  
@@ -77,10 +77,10 @@ drwxr-xr-x 3 root root 1024 Jun 9 20:32 boot/
 drwxr-xr-x 6 root root 36864 Jul 12 10:26 dev/  
 drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
 
-**14. cd** 
+**14. cd**  
 changes the working directory to your home directory
 
-**15. exit** 
+**15. exit**  
  end a terminal session
 
   
