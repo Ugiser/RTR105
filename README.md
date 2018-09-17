@@ -36,25 +36,37 @@ Print all of information
 
 **9. Echo**   
 Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one
-* **Echo $0**
-Display name of running program  
+* **Echo $0** 
+Display name of running program
+>bash
 
 **10. Who**   
-Print who is currently logged in   
+Print who is currently logged in
+> ugiser  :0      2018-09-17 8:19 (:0)
+  ugiser  tty6    2018-09-17 8:22
+  
 **11. Whoami**  
-Print the current user id and name. Same as id -un   
+Print the current user id and name. Same as id -un
+> ugiser
+
 **12. pwd**  
 Print Working Directory (shell builtin)
 > /home/username  
 
 **13. ls**  
 List information about files
+>Desktop Documents Downloads Music Pictures Public Templates Videos
+
 * **ls -l**          
  Use a long listing format    
 * **ls -a**          
   List all entries including those starting with a dot  
 * **ls -la**          
-  list everything in a vertical list  
+  list everything in a vertical list
+  d - directory 
+  r - reading 
+  w - writing 
+  x - executable
  > total 109
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./   
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../    
@@ -62,7 +74,7 @@ drwxr-xr-x 2 root root 4096 Jun 9 21:14 bin/
 drwxr-xr-x 3 root root 1024 Jun 9 20:32 boot/   
 drwxr-xr-x 6 root root 36864 Jul 12 10:26 dev/  
 drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/  
- 
+
   
 
 
