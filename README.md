@@ -12,9 +12,14 @@ Switch to the nth text terminal
 **4."Ctrl"Alt"t"**  
 Open new terminal window  
 **5. tty**  
-Print the name of the terminal in which you are typing this command  
+Print the name of the terminal in which you are typing this command
+> /dev/pts/0
+
 **6. Tab**  
-(In a text terminal) Autocomplete the command  if there is only one option, or else show all the available options   
+(In a text terminal) Autocomplete the command if there is only one option, or else show all the available options
+> Command 'unnname' not found, did you mean:  
+command 'uname' from deb uucp
+
 **7. Man**  
  Format and display help pages
  > $ man uname  
