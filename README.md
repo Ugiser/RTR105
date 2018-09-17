@@ -91,35 +91,29 @@ Kopē datnes un mapes
 **16. exit**  
 Aizver termināli
 
-**cd (change directory)**   
-pārvietojas starp mapēm  
+**17. mkdir (make directory)**    
+Izveido failu  
 
-**mkdir**    
-izveido failu  
+**18. rmdir (remove directory)**   
+Izdzēš failu  
 
-**rmdir**   
-izdzēš failu  
+**19. rm (remove)**  
+Izdzēš mapi ar failiem  
+ 
+**20. cat/more/less**    
+Attēlo faila saturu  
 
-**rm**  
-izdzēš mapi ar failiem  
+**21. nano**  
+Rediģē faila saturu  
 
-**echo**  
-izvada teksta rindu   
+**22. chmod (change mode)**  
+Rediģē lietotāja atļaujas  
 
-**cat/more/less**    
-attēlo faila saturu  
+**23. mv (move)**  
+Pārvieto failu  
 
-**nano**  
-rediģē faila saturu  
-
-**chmod (change mode)**  
-rediģē lietotāja atļaujas  
-
-**mv (move)**  
-pārvieto failu  
-
-**cp (copy)**  
-kopē failu
+**24. cp (copy)**  
+kKpē failu
 
 
 
