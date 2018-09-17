@@ -49,13 +49,13 @@ Izvada katalogu, kurā atrodas lietotājs
 > /home/username  
 
 **11. tty**  
-Print the name of the terminal in which you are typing this command
+Izvada termināļa nosaukumu, kurā tiek veiktas darbības
 > /dev/pts/0
 
-**12. Tab**  
-(In a text terminal) Autocomplete the command if there is only one option, or else show all the available options
-> Command 'unnname' not found, did you mean:  
-command 'uname' from deb uucp
+**12. mv (move)**   
+pārvieto datnes un mapes
+Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,  
+bet otrs arguments ir atrašanās vieta, uz kuru datne vai mape jāpārceļ
 
 **13. ls (list)**  
 Izvada pašreizējās darba mapes satura sarakstu – datnes un apakšmapes 
@@ -71,8 +71,8 @@ Izvada pašreizējās darba mapes satura sarakstu – datnes un apakšmapes
       *r - reading*  
       *w - writing*  
       *x - executable*  
-      *1.root - faila īpašnieka lietotājvārds *  
-      *2.root - grupas nosaukums*  
+      *1.root - faila īpašnieka lietotājvārds *   
+      *2.root - grupas nosaukums *   
  > total 109
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./   
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../    
