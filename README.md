@@ -50,11 +50,11 @@ Print the current user id and name. Same as id -un
 > ugiser
 
 **12. pwd**  
-Print Working Directory (shell builtin)
+Print name of current working directory 
 > /home/username  
 
 **13. ls**  
-List information about files
+List directory contents
 >Desktop Documents Downloads Music Pictures Public Templates Videos
 
 * **ls -l**          
@@ -62,18 +62,26 @@ List information about files
 * **ls -a**          
   List all entries including those starting with a dot  
 * **ls -la**          
-  list everything in a vertical list
+  list everything in a vertical list 
       *d - directory*  
       *r - reading*  
       *w - writing*  
-      *x - executable*
+      *x - executable*  
+      *1.root - username of the file's owner*  
+      *2.root - name of the group which owns the file*  
  > total 109
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./   
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../    
 drwxr-xr-x 2 root root 4096 Jun 9 21:14 bin/    
 drwxr-xr-x 3 root root 1024 Jun 9 20:32 boot/   
 drwxr-xr-x 6 root root 36864 Jul 12 10:26 dev/  
-drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/  
+drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
+
+**14. cd** 
+changes the working directory to your home directory
+
+**15. exit** 
+ end a terminal session
 
   
 
