@@ -31,7 +31,7 @@ Izvada pilnu informāciju
 >Linux ugiser-virtualbox 4.15.0 29 generic #31 ubuntu SMP Tue Jul Time UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 
 **7. echo**   
-Display message on screen, writes each given STRING to standard output, with a space between each and a newline after the last one
+Izvada rindu ar tekstu
 * **Echo $0** 
 Izvada pašlaik strādājošās programmas nosaukumu
 >bash
