@@ -63,10 +63,10 @@ List information about files
   List all entries including those starting with a dot  
 * **ls -la**          
   list everything in a vertical list
-  d - directory 
-  r - reading 
-  w - writing 
-  x - executable
+      d - directory 
+      r - reading 
+      w - writing 
+      x - executable
  > total 109
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./   
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../    
