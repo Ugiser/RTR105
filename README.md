@@ -91,6 +91,50 @@ Kopē datnes un mapes
 **16. exit**  
 Aizver termināli
 
+**cd (change directory)**   
+pārvietojas starp mapēm  
+
+**mkdir**    
+izveido failu  
+
+**rmdir**   
+izdzēš failu  
+
+**rm**  
+izdzēš mapi ar failiem  
+
+**echo**  
+izvada teksta rindu   
+
+**cat/more/less**    
+attēlo faila saturu  
+
+**nano**  
+rediģē faila saturu  
+
+**chmod (change mode)**  
+rediģē lietotāja atļaujas  
+
+**mv (move)**  
+pārvieto failu  
+
+**cp (copy)**  
+kopē failu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
