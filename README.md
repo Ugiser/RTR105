@@ -53,7 +53,7 @@ Izvada termināļa nosaukumu, kurā tiek veiktas darbības
 > /dev/pts/0
 
 **12. mv (move)**   
-pārvieto datnes un mapes
+Pārvieto datnes un mapes
 Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,  
 bet otrs arguments ir atrašanās vieta, uz kuru datne vai mape jāpārceļ
 
