@@ -73,8 +73,9 @@ Izvada pašreizējās darba mapes satura sarakstu – datnes un apakšmapes
       *r - reading*  
       *w - writing*  
       *x - executable*    
-      1.root - faila īpašnieka lietotājvārds   
-      2.root - grupas nosaukums     
+      *1.root - faila īpašnieka lietotājvārds*   
+      *2.root - grupas nosaukums*   
+      
  > total 109
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ./   
 drwxr-xr-x 18 root root 4096 Jun 9 21:12 ../    
@@ -90,7 +91,8 @@ Uzdodot mapes nosaukumu, var izmantot īpašo mapju apzīmējumus:
      *. – pašreizējā darba mape*  
      *.. – pašreizējas darba mapes vecākmape*  
      */ – failsistēmas sakne*  
-     *~ – pašreizējā lietotāja mājas mape*   
+     *~ – pašreizējā lietotāja mājas mape*    
+     
 Svarīgi atcerēties, ka, norādot ceļu failsistēmā, mapju nosaukumus atdala ar /
 > cd documents/work/accounting  
   
