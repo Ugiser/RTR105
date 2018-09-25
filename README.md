@@ -122,7 +122,7 @@ Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
   
 **19. cat/more/less**    
 Attēlo faila saturu 
- * **cat mape.txt**
+ * **cat mapesnosaukums.txt**
  > parādās viss mapes saturs (teksts)
  
 **20. nano**  
