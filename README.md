@@ -86,10 +86,10 @@ drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
 Maina pašreizējās termināļa sesijas darba mapi 
 Komandu lieto kā tās argumentu, uzdodot jaunās darba mapes nosaukumu 
 Uzdodot mapes nosaukumu, var izmantot īpašo mapju apzīmējumus:  
-. – pašreizējā darba mape;  
-.. – pašreizējas darba mapes vecākmape;  
-/ – failsistēmas sakne;  
-~ – pašreizējā lietotāja mājas mape.   
+     *. – pašreizējā darba mape*  
+     *.. – pašreizējas darba mapes vecākmape*  
+     */ – failsistēmas sakne*  
+     *~ – pašreizējā lietotāja mājas mape*   
 Svarīgi atcerēties, ka, norādot ceļu failsistēmā, mapju nosaukumus atdala ar /
   
 **15. cp (copy)**   
@@ -110,13 +110,17 @@ Komanda rm kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukum
 Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
  
 **19. cat/more/less**    
-Attēlo faila saturu  
+Attēlo faila saturu 
+> cat mape.txt  
 
 **20. nano**  
 Rediģē faila saturu  
+> nano mapesnosaukums.txt
+  "atveras faila redaktors"
 
 **21. chmod (change mode)**  
 Rediģē lietotāja atļaujas rīkoties man catar datnēm un failiem  
+> chmod 540 mapesnosaukums.txt  
 
 **22. exit**  
 Aizver termināli
