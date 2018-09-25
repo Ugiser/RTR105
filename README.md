@@ -84,21 +84,32 @@ drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
 **14. cd (change directory)**  
 Maina pašreizējās termināļa sesijas darba mapi 
 Komandu lieto kā tās argumentu, uzdodot jaunās darba mapes nosaukumu 
- 
+Uzdodot mapes nosaukumu, var izmantot īpašo mapju apzīmējumus:  
+. – pašreizējā darba mape;  
+.. – pašreizējas darba mapes vecākmape;  
+/ – failsistēmas sakne;  
+~ – pašreizējā lietotāja mājas mape.   
+Svarīgi atcerēties, ka, norādot ceļu failsistēmā, mapju nosaukumus atdala ar /
+  
 **15. cp (copy)**   
 Kopē datnes un mapes
- 
+Darbojas līdzīgi komandai mv, bet atstāj oriģinālu vietā.   
+Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēja -r  
+
 **16. exit**  
 Aizver termināli
 
 **17. mkdir (make directory)**    
-Izveido failu  
+Izveido jaunas mapes  
+Komandas arguments ir jaunās mapes nosaukums
 
 **18. rmdir (remove directory)**   
-Izdzēš failu  
+Izdzēš datnes bez failiem
 
 **19. rm (remove)**  
-Izdzēš mapi ar failiem  
+Izdzēš datnes un mapes 
+Komanda rm kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
+Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
  
 **20. cat/more/less**    
 Attēlo faila saturu  
@@ -110,10 +121,8 @@ Rediģē faila saturu
 Rediģē lietotāja atļaujas  
 
 **23. mv (move)**  
-Pārvieto failu  
-
-**24. cp (copy)**  
-kKpē failu
+Pārvieto datnes un mapes
+To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu). Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums, bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ
 
 
 
