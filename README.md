@@ -56,7 +56,8 @@ Izvada termināļa nosaukumu, kurā tiek veiktas darbības
 Pārvieto datnes un mapes  
 To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu).   
 Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,   
-bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ  
+bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ 
+> mv myfile.txt myfiles
 
 **13. ls (list)**  
 Izvada pašreizējās darba mapes satura sarakstu – datnes un apakšmapes 
@@ -91,31 +92,36 @@ Uzdodot mapes nosaukumu, var izmantot īpašo mapju apzīmējumus:
      */ – failsistēmas sakne*  
      *~ – pašreizējā lietotāja mājas mape*   
 Svarīgi atcerēties, ka, norādot ceļu failsistēmā, mapju nosaukumus atdala ar /
+> cd documents/work/accounting  
   
 **15. cp (copy)**   
 Kopē datnes un mapes
 Darbojas līdzīgi komandai mv, bet atstāj oriģinālu vietā.   
-Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēja -r  
+Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēja -r    
+> cp picture.jpg picture-02.jpg  
 
 **16. mkdir (make directory)**    
 Izveido jaunas mapes  
-Komandas arguments ir jaunās mapes nosaukums
+Komandas arguments ir jaunās mapes nosaukums  
+> mkdir mydir 
 
 **17. rmdir (remove directory)**   
-Izdzēš datnes bez failiem
+Izdzēš datnes bez failiem  
+> rmdir mydir  
 
 **18. rm (remove)**  
 Izdzēš datnes un mapes 
-Komanda rm kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
+Komanda kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
 Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
- 
+> rm mape.txt
+  
 **19. cat/more/less**    
 Attēlo faila saturu 
 > cat mape.txt  
 
 **20. nano**  
 Rediģē faila saturu  
-> nano mapesnosaukums.txt
+> nano mapesnosaukums.txt  
   "atveras faila redaktors"
 
 **21. chmod (change mode)**  
