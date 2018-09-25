@@ -105,23 +105,26 @@ Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēj
 **16. mkdir (make directory)**    
 Izveido jaunas mapes  
 Komandas arguments ir jaunās mapes nosaukums  
- **mkdir mydir** 
+ * **mkdir mydir** 
 > drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir  
 
 **17. rmdir (remove directory)**   
 Izdzēš datnes bez failiem  
-> rmdir mydir  
+* **rmdir mydir**
+> failu sarakstā pazūd "drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir"  
 
 **18. rm (remove)**  
 Izdzēš datnes un mapes 
 Komanda kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
 Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
-> rm mape.txt
+* **rm -r mydir** 
+> failu sarakstā pazūd "drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir" 
   
 **19. cat/more/less**    
 Attēlo faila saturu 
-> cat mape.txt  
-
+ * **cat mape.txt**
+ > parādās viss mapes saturs (teksts)
+ 
 **20. nano**  
 Rediģē faila saturu  
 > nano mapesnosaukums.txt  
