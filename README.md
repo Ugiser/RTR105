@@ -105,7 +105,8 @@ Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēj
 **16. mkdir (make directory)**    
 Izveido jaunas mapes  
 Komandas arguments ir jaunās mapes nosaukums  
-> mkdir mydir 
+ **mkdir mydir** 
+> drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir  
 
 **17. rmdir (remove directory)**   
 Izdzēš datnes bez failiem  
