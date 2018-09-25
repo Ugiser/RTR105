@@ -52,10 +52,11 @@ Izvada katalogu, kurā atrodas lietotājs
 Izvada termināļa nosaukumu, kurā tiek veiktas darbības
 > /dev/pts/0
 
-**12. mv (move)**   
-Pārvieto datnes un mapes
-Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,  
-bet otrs arguments ir atrašanās vieta, uz kuru datne vai mape jāpārceļ
+**12. mv (move)**  
+Pārvieto datnes un mapes  
+To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu).   
+Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,   
+bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ  
 
 **13. ls (list)**  
 Izvada pašreizējās darba mapes satura sarakstu – datnes un apakšmapes 
@@ -96,33 +97,29 @@ Kopē datnes un mapes
 Darbojas līdzīgi komandai mv, bet atstāj oriģinālu vietā.   
 Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēja -r  
 
-**16. exit**  
-Aizver termināli
-
-**17. mkdir (make directory)**    
+**16. mkdir (make directory)**    
 Izveido jaunas mapes  
 Komandas arguments ir jaunās mapes nosaukums
 
-**18. rmdir (remove directory)**   
+**17. rmdir (remove directory)**   
 Izdzēš datnes bez failiem
 
-**19. rm (remove)**  
+**18. rm (remove)**  
 Izdzēš datnes un mapes 
 Komanda rm kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
 Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
  
-**20. cat/more/less**    
+**19. cat/more/less**    
 Attēlo faila saturu  
 
-**21. nano**  
+**20. nano**  
 Rediģē faila saturu  
 
-**22. chmod (change mode)**  
-Rediģē lietotāja atļaujas  
+**21. chmod (change mode)**  
+Rediģē lietotāja atļaujas rīkoties man catar datnēm un failiem  
 
-**23. mv (move)**  
-Pārvieto datnes un mapes
-To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu). Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums, bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ
+**22. exit**  
+Aizver termināli
 
 
 
