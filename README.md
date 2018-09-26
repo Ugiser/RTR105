@@ -52,14 +52,7 @@ Izvada katalogu, kurā atrodas lietotājs
 Izvada termināļa nosaukumu, kurā tiek veiktas darbības
 > /dev/pts/0
 
-**12. mv (move)**  
-Pārvieto datnes un mapes  
-To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu)     
-Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,   
-bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ 
-> mv myfile.txt myfiles
-
-**13. ls (list)**  
+**12. ls (list)**  
 Izvada pašreizējās darba mapes satura sarakstu – datnes un apakšmapes 
 >Desktop Documents Downloads Music Pictures Public Templates Videos
 
@@ -84,7 +77,19 @@ drwxr-xr-x 3 root root 1024 Jun 9 20:32 boot/
 drwxr-xr-x 6 root root 36864 Jul 12 10:26 dev/  
 drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
 
-**14. cd (change directory)**  
+**13. exit**  
+Aizver termināli
+
+### 3.nodarbībā izmantotās Linux komandas
+
+**14. mv (move)**  
+Pārvieto datnes un mapes  
+To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu)     
+Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,   
+bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ 
+> mv myfile.txt myfiles
+
+**15. cd (change directory)**  
 Maina pašreizējās termināļa sesijas darba mapi 
 Komandu lieto kā tās argumentu, uzdodot jaunās darba mapes nosaukumu 
 Uzdodot mapes nosaukumu, var izmantot īpašo mapju apzīmējumus:  
@@ -96,46 +101,45 @@ Uzdodot mapes nosaukumu, var izmantot īpašo mapju apzīmējumus:
 Svarīgi atcerēties, ka, norādot ceļu failsistēmā, mapju nosaukumus atdala ar /
 > cd documents/work/accounting  
   
-**15. cp (copy)**   
+**16. cp (copy)**   
 Kopē datnes un mapes
 Darbojas līdzīgi komandai mv, bet atstāj oriģinālu vietā.   
 Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēja -r    
 > cp picture.jpg picture-02.jpg  
 
-**16. mkdir (make directory)**    
+**17. mkdir (make directory)**    
 Izveido jaunas mapes  
 Komandas arguments ir jaunās mapes nosaukums  
  * **mkdir mydir** 
 > drwxr-xr-x 2 user user 4096 sep 25 19:52 mydir  
 
-**17. rmdir (remove directory)**   
+**18. rmdir (remove directory)**   
 Izdzēš datnes bez failiem  
 * **rmdir mydir**
 > failu sarakstā pazūd "drwxr-xr-x 2 user user 4096 sep 25 19:52 mydir"  
 
-**18. rm (remove)**  
+**19. rm (remove)**  
 Izdzēš datnes un mapes 
 Komanda kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
 Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
 * **rm -r mydir** 
 > failu sarakstā pazūd "drwxr-xr-x 2 user user 4096 sep 25 19:52 mydir" 
   
-**19. cat/more/less**    
+**20. cat/more/less**    
 Attēlo faila saturu 
  * **cat mapesnosaukums.txt**
  > parādās viss mapes saturs (teksts)
  
-**20. nano**  
+**21. nano**  
 Rediģē faila saturu  
 * **nano mapesnosaukums.txt**  
  > "atveras faila redaktors"
 
-**21. chmod (change mode)**  
+**22. chmod (change mode)**  
 Rediģē lietotāja atļaujas rīkoties ar datnēm un failiem  
 > chmod 540 mapesnosaukums.txt  
 
-**22. exit**  
-Aizver termināli
+
 
 
 
