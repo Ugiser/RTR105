@@ -35,6 +35,8 @@ Izvada rindu ar tekstu
 * **Echo $0** 
 Izvada pašlaik strādājošās programmas nosaukumu
 >bash
+* **Echo $PATH**
+
 
 **8. who**   
 Uzzina, kādi lietotāji strādā sistēmā
@@ -137,10 +139,21 @@ Rediģē faila saturu
 
 **22. chmod (change mode)**  
 Rediģē lietotāja atļaujas rīkoties ar datnēm un failiem  
-> chmod 540 mapesnosaukums.txt  
+> chmod 540 mapesnosaukums.txt
+
+**23.history**
+Izvada iepriekšējās darbības
+
+**24.PATH**
 
 
 
+
+git clone
+  
+#!/bin/bash
+PATH=$PATH:/home/user
+./
 
 
 
