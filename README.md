@@ -28,7 +28,7 @@ Izvada sistēmas informāciju, izvada informāciju par strādājošo datoru un o
 * **uname -a** 
 * **uname --all**  
 Izvada pilnu informāciju
->Linux ugiser-virtualbox 4.15.0 29 generic #31 ubuntu SMP Tue Jul Time UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+>Linux user-virtualbox 4.15.0 29 generic #31 ubuntu SMP Tue Jul Time UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
 
 **7. echo**   
 Izvada rindu ar tekstu
@@ -38,8 +38,8 @@ Izvada pašlaik strādājošās programmas nosaukumu
 
 **8. who**   
 Uzzina, kādi lietotāji strādā sistēmā
-> ugiser  :0      2018-09-17 8:19 (:0)
-  ugiser  tty6    2018-09-17 8:22
+> user  :0      2018-09-17 8:19 (:0)
+  user  tty6    2018-09-17 8:22
   
 **9. whoami**  
 Izvada lietotāja id un vārdu
@@ -54,7 +54,7 @@ Izvada termināļa nosaukumu, kurā tiek veiktas darbības
 
 **12. mv (move)**  
 Pārvieto datnes un mapes  
-To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu).   
+To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu)     
 Komandas pirmais arguments ir mapes vai datnes pašreizējā atrašanās vieta un nosaukums,   
 bet otrs arguments ir atrašanās vieta (ietverot nosaukumu), uz kuru datne vai mape jāpārceļ 
 > mv myfile.txt myfiles
@@ -106,19 +106,19 @@ Tāpat kā rm komandas gadījumā, lai darbotos ar mapēm, ir jāizmanto iespēj
 Izveido jaunas mapes  
 Komandas arguments ir jaunās mapes nosaukums  
  * **mkdir mydir** 
-> drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir  
+> drwxr-xr-x 2 user user 4096 sep 25 19:52 mydir  
 
 **17. rmdir (remove directory)**   
 Izdzēš datnes bez failiem  
 * **rmdir mydir**
-> failu sarakstā pazūd "drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir"  
+> failu sarakstā pazūd "drwxr-xr-x 2 user user 4096 sep 25 19:52 mydir"  
 
 **18. rm (remove)**  
 Izdzēš datnes un mapes 
 Komanda kā argumentu saņem dzēšanai paredzētas datnes vai mapes nosaukumu.  
 Lai dzēstu mapi ar visu tās saturu, komandai pievieno iespēju -r (recursive)
 * **rm -r mydir** 
-> failu sarakstā pazūd "drwxr-xr-x 2 ugiser ugiser 4096 sep 25 19:52 mydir" 
+> failu sarakstā pazūd "drwxr-xr-x 2 user user 4096 sep 25 19:52 mydir" 
   
 **19. cat/more/less**    
 Attēlo faila saturu 
@@ -127,11 +127,11 @@ Attēlo faila saturu
  
 **20. nano**  
 Rediģē faila saturu  
-> nano mapesnosaukums.txt  
-  "atveras faila redaktors"
+* **nano mapesnosaukums.txt**  
+ > "atveras faila redaktors"
 
 **21. chmod (change mode)**  
-Rediģē lietotāja atļaujas rīkoties man catar datnēm un failiem  
+Rediģē lietotāja atļaujas rīkoties ar datnēm un failiem  
 > chmod 540 mapesnosaukums.txt  
 
 **22. exit**  
