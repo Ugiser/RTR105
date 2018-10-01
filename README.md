@@ -150,11 +150,10 @@ direktoriju katalogs, kuru sistēma izmanto meklējot atbilstošo komandu
 * **PATH=$PATH:/home/user**
 >PATH katalogā tiek pievienota jauna komanda /home/user
 
+**25.git clone**
+klonē eksistējošu repozitāriju
+>git clone https://github.com/ugiser/RTR015
 
-
-
-
-git clone
   
 #!/bin/bash
 
