@@ -142,24 +142,20 @@ Rediģē faila saturu
 Rediģē lietotāja atļaujas rīkoties ar datnēm un failiem  
 > chmod 540 mapesnosaukums.txt
 
-**23.history**  
+**23. history**  
 Izvada iepriekšējās darbības
 
-**24.PATH**  
-direktoriju katalogs, kuru sistēma izmanto meklējot atbilstošo komandu 
+**24. PATH**  
+Direktoriju katalogs, kuru sistēma izmanto meklējot atbilstošo komandu 
 * **PATH=$PATH:/home/user**  
 >PATH katalogā tiek pievienota jauna komanda /home/user
 
-**25.git clone**  
-klonē eksistējošu repozitāriju
+**25. git clone**  
+Klonē eksistējošu repozitāriju
 >git clone https://github.com/ugiser/RTR015
 
-  
-#!/bin/bash
-
-./
-
-
+**26. #!/bin/bash**  
+Definē kurš interpretētājs tiek izmantots
 
 
 
