@@ -35,8 +35,9 @@ Izvada rindu ar tekstu
 * **Echo $0** 
 Izvada pašlaik strādājošās programmas nosaukumu
 >bash
-* **Echo $PATH**
-
+* **Echo $PATH**  
+Izvada direktoriju katalogu, kuru sistēma izmanto meklējot atbilstošo komandu  
+> /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/bin/X11:/usr/games
 
 **8. who**   
 Uzzina, kādi lietotāji strādā sistēmā
@@ -145,6 +146,10 @@ Rediģē lietotāja atļaujas rīkoties ar datnēm un failiem
 Izvada iepriekšējās darbības
 
 **24.PATH**
+direktoriju katalogs, kuru sistēma izmanto meklējot atbilstošo komandu 
+* **PATH=$PATH:/home/user**
+>PATH katalogā tiek pievienota jauna komanda /home/user
+
 
 
 
@@ -152,7 +157,7 @@ Izvada iepriekšējās darbības
 git clone
   
 #!/bin/bash
-PATH=$PATH:/home/user
+
 ./
 
 
