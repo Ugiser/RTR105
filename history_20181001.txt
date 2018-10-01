@@ -1,0 +1,24 @@
+    1* 
+    2  quartus
+    3  mython
+    4  python
+    5  ipython
+    6  idle &
+    7  ls -l
+    8  cat dgr
+    9  cat dgr_20181001.py 
+   10  git clone https:/github.com/ugiser
+   11  git clone https:/github.com/ugiser/RTR105
+   12  git clone https:/github.com/Ugiser/RTR105
+   13  mv dgr_20181001.py rtr105/
+   14  git clone https:/github.com/Ugiser/RTR105
+   15  git clone https:/github.com/Ugiser/RTR015
+   16  nano test_1.py
+   17  ls -l
+   18  git clone https:/github.com/Ugiser/RTR105
+   19  git clone https://github.com/Ugiser/RTR105
+   20  mv dgr_20181001.py rtr105/
+   21  ls -l
+   22  mv dgr_20181001.py rtr105/
+   23  mv dgr_20181001.py RTR105/
+   24  history > history_20181001.txt
