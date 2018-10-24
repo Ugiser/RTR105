@@ -1,0 +1,13 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  rm -rf RTR105
+    4  git clone https://github.com/ugiser/RTR105
+    5  cd RTR105
+    6  idle
+    7  exit
+    8  git clone https://github.com/ugiser/RTR105
+    9  rm -rf RTR105
+   10  git clone https://github.com/ugiser/RTR105
+   11  cd RTR105
+   12  python
+   13  history > history_20181024.txt
