@@ -1,0 +1,47 @@
+#1.
+x = 5
+y = "John"
+print(x)
+print(y)
+
+5
+John
+
+2.
+x = 4 # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
+Sally
+
+3.
+x = "awesome"
+print("Python is " + x)
+
+Python is awesome
+
+4.
+x = "Python is "
+y = "awesome"
+z =  x + y
+print(z)
+
+Python is awesome
+
+5.
+x = 5
+y = 10
+print(x + y)
+
+15
+
+6.
+x = 5
+y = "John"
+print(x + y)
+
+Error
+
+
+
+
