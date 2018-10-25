@@ -1,6 +1,6 @@
 # RTR105  
 # Datormācības kursa elektroniskā klade  
-### 2.nodarbībā izmantotās Linux komandas
+### Linux komandas
 
 
 **1. "Ctrl"Alt"F1"**  
@@ -83,8 +83,6 @@ drwxr-xr-x 34 root root 4096 Jul 12 10:25 etc/
 **13. exit**  
 Aizver termināli
 
-### 3.nodarbībā izmantotās Linux komandas
-
 **14. mv (move)**  
 Pārvieto datnes un mapes  
 To izmanto arī pārsaukšanai (pārvieto datni uz to pašu atrašanās vietu, bet ar citu nosaukumu)     
@@ -156,6 +154,9 @@ Klonē eksistējošu repozitāriju
 
 **26. #!/bin/bash**  
 Definē kurš interpretētājs tiek izmantots
+
+## Python programmēšana  
+# Variables, expressions and statements  
 
 
 
