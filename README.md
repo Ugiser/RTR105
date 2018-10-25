@@ -169,6 +169,11 @@ Definē kurš interpretētājs tiek izmantots
 
 
 
+
+
+
+
+
   
 
 
