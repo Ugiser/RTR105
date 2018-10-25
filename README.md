@@ -156,7 +156,7 @@ Klonē eksistējošu repozitāriju
 Definē kurš interpretētājs tiek izmantots
 
 ## Python programmēšana  
-# Variables, expressions and statements  
+### Variables, expressions and statements  
 
 
 
