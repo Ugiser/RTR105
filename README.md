@@ -168,11 +168,11 @@ type() - Nosaka vērtības veidu (str,int,..)
 Skaitļus var nosaukt par simbolu virkni  
 
 Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:  
-+ - saskaitīšana  
-– - atņemšana  
-* - reizināšana  
-/ - dalīšana  
-% - atlikums no dalīšanas  
++- saskaitīšana  
+–- atņemšana  
+*- reizināšana  
+/- dalīšana  
+%- atlikums no dalīšanas  
 ** - kāpināšana  
 + un * strādā arī ar simbolu virknēm   
 
@@ -293,21 +293,21 @@ darbiiba_aarpus_nosaciijuma_operatora
 
 
 if x > 0 :  
-    print('x ir pozitīvs')  
+____print('x ir pozitīvs')  
 
 if x < y:  
-    print('x ir mazāks par y')  
+____print('x ir mazāks par y')  
 elif x > y:  
-    print('x ir lielāks par y')  
+____print('x ir lielāks par y')  
 else:  
-    print('x u  y ir vienādi')  
+____print('x u  y ir vienādi')  
 
 if choice == 'a':  
-    print('Bad guess')  
+___print('Bad guess')  
 elif choice == 'b':  
-    print('Good guess')  
+___print('Good guess')  
 elif choice == 'c':  
-    print('Close, but not correct')  
+___print('Close, but not correct')  
 
 if x == y:  
     print('x un y ir vienādi')  
