@@ -155,167 +155,167 @@ Klonē eksistējošu repozitāriju
 **26. #!/bin/bash**  
 Definē kurš interpretētājs tiek izmantots
 
-## Python programmēšana  
-### Mainīgie, izteiksmes, paziņojumi
+## Python programmēšana    
+### Mainīgie, izteiksmes, paziņojumi  
 
->python - Palaiž programmēšanas vidi
+>python - Palaiž programmēšanas vidi  
 
-integer (int) - vesels skaitlis
-string (str) - simbolu virkne
-floating-point numbers (float) - skaitļi ar komatu
->>>print() - Izvada informāciju
->>>type() - Nosaka vērtības veidu (str,int,..)
-Skaitļus var nosaukt par simbolu virkni
+integer (int) - vesels skaitlis  
+string (str) - simbolu virkne  
+floating-point numbers (float) - skaitļi ar komatu  
+>>>print() - Izvada informāciju  
+>>>type() - Nosaka vērtības veidu (str,int,..)  
+Skaitļus var nosaukt par simbolu virkni  
 
-Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:
-+ - saskaitīšana
-– - atņemšana
-* - reizināšana
-/ - dalīšana
-% - atlikums no dalīšanas
-** - kāpināšana
-+ un * strādā arī ar simbolu virknēm 
+Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:  
++ - saskaitīšana  
+– - atņemšana  
+* - reizināšana  
+/ - dalīšana  
+% - atlikums no dalīšanas  
+** - kāpināšana  
++ un * strādā arī ar simbolu virknēm   
 
-Mainīgajiem piemīt konkrēta vērtība
-Mainīgo nosaukums nesākas ar ciparu, nesatur neatbilstošu simbolu
-Pareizi: spam eggs spam23 _speed
-Nepareizi: 23spam #sign var.12
-Atšķirīgi: spam Spam SPAM
-Ar _ parasti atdala vairākus vārdus
-variable='name'
-n=7
-k=2.5
+Mainīgajiem piemīt konkrēta vērtība  
+Mainīgo nosaukums nesākas ar ciparu, nesatur neatbilstošu simbolu  
+Pareizi: spam eggs spam23 _speed  
+Nepareizi: 23spam #sign var.12  
+Atšķirīgi: spam Spam SPAM  
+Ar _ parasti atdala vairākus vārdus  
+variable='name'  
+n=7  
+k=2.5  
 
-33 Python atslēgas vārdi
-and       del       from      None      True
-as        elif      global    nonlocal  try
-assert    else      if        not       while
-break     except    import    or        with
-class     False     in        pass      yield
-continue  finally   is        raise
-def       for       lambda    return
+33 Python atslēgas vārdi  
+and       del       from      None      True  
+as        elif      global    nonlocal  try  
+assert    else      if        not       while  
+break     except    import    or        with  
+class     False     in        pass      yield  
+continue  finally   is        raise  
+def       for       lambda    return  
 
->>>input()
-Pieprasa ievadīt vērtību ar tastatūru
->>> inp = input()
-Something
->>> print(inp)
-Something
+>>>input()  
+Pieprasa ievadīt vērtību ar tastatūru  
+>>> inp = input()  
+Something  
+>>> print(inp)  
+Something  
 
-\n jauna līnija
-#- komentāri
+\n jauna līnija  
+#- komentāri  
 
-Mainīgos parasti nosauc atbilstoši uzdevuma dotajiem lielumiem
-hours = 35.0
-rate = 12.50
-pay = hours * rate
-print(pay)
+Mainīgos parasti nosauc atbilstoši uzdevuma dotajiem lielumiem  
+hours = 35.0  
+rate = 12.50  
+pay = hours * rate  
+print(pay)  
 
-SyntaxError: invalid syntax - sintakses kļūda
-NameError: name 'principle' is not defined - mainīgā definēšanas kļūda
+SyntaxError: invalid syntax - sintakses kļūda  
+NameError: name 'principle' is not defined - mainīgā definēšanas kļūda  
 
-### Nosacījumi
+### Nosacījumi  
 
-Nosacījumos izmantojamās salīdzināšanas operācijas:
-> - lielāks
-< - mazāks
-== - vienāds
->= - lielāks vai vienāds
-<= - mazāks vai vienāds
-!= - nav vienāds
+Nosacījumos izmantojamās salīdzināšanas operācijas:  
+> - lielāks  
+< - mazāks  
+== - vienāds  
+>= - lielāks vai vienāds  
+<= - mazāks vai vienāds  
+!= - nav vienāds  
 
-Vienkāršs piemērs:
-print "Ievadiet skaitli"
-skaitlis = inpeut()
-if skaitlis>=0:
-print "Pozitivs skaitlis"
-else:
-print "Negativs skaitlis"
+Vienkāršs piemērs:  
+print "Ievadiet skaitli"  
+skaitlis = input()  
+if skaitlis>=0:  
+print "Pozitivs skaitlis"  
+else:  
+print "Negativs skaitlis"  
 
-True - Patiess
-False - Aplams
-Abi ietilpst bool tipā
->>> type(True)
-<class 'bool'>
->>> type(False)
-<class 'bool'>
+True - Patiess  
+False - Aplams  
+Abi ietilpst bool tipā  
+>>> type(True)  
+<class 'bool'>  
+>>> type(False)  
+<class 'bool'>  
 
-and - un
-or - vai
-not - ne
+and - un  
+or - vai  
+not - ne  
 
-#### Nosacījuma operators if
+#### Nosacījuma operators if  
 
-▶ if vienmēr satur nosacījumu un : simbolu beigās
-▶ elif vienmēr pieder kādam if
-▶ elif vienmēr satur nosacījumu un : simbolu beigās
-▶ elif var nebūt / var būt viens / var būt vairāki
-▶ else vienmēr pieder kādam if
-▶ else nesatur nosacījumu un satur: simbolu beigās
-▶ else var nebūt / var būt viens un vienmēr ir beigās
-
-
-1.
-if ( saliktais ) nosaciijums :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-darbiiba_aarpus_nosaciijuma_operatora
-
-2.
-if ( saliktais ) nosaciijums :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-elif ( saliktais ) nosaciijums :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-darbiiba_aarpus_nosaciijuma_operatora
-
-3.
-if ( saliktais ) nosaciijums :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-else :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-darbiiba_aarpus_nosaciijuma_operatora
-
-4.
-if ( saliktais ) nosaciijums :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-elif ( saliktais ) nosaciijums :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-else :
-   vismaz_viena_darbiiba
-   var_buut_vairaakas_darbiibas
-darbiiba_aarpus_nosaciijuma_operatora
+▶ if vienmēr satur nosacījumu un : simbolu beigās  
+▶ elif vienmēr pieder kādam if  
+▶ elif vienmēr satur nosacījumu un : simbolu beigās  
+▶ elif var nebūt / var būt viens / var būt vairāki  
+▶ else vienmēr pieder kādam if  
+▶ else nesatur nosacījumu un satur: simbolu beigās  
+▶ else var nebūt / var būt viens un vienmēr ir beigās  
 
 
-if x > 0 :
-    print('x ir pozitīvs')
+1.  
+if ( saliktais ) nosaciijums :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+darbiiba_aarpus_nosaciijuma_operatora  
 
-if x < y:
-    print('x ir mazāks par y')
-elif x > y:
-    print('x ir lielāks par y')
-else:
-    print('x u  y ir vienādi')
+2.  
+if ( saliktais ) nosaciijums :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+elif ( saliktais ) nosaciijums :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+darbiiba_aarpus_nosaciijuma_operatora  
 
-if choice == 'a':
-    print('Bad guess')
-elif choice == 'b':
-    print('Good guess')
-elif choice == 'c':
-    print('Close, but not correct')
+3.  
+if ( saliktais ) nosaciijums :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+else :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+darbiiba_aarpus_nosaciijuma_operatora  
 
-if x == y:
-    print('x un y ir vienādi')
-else:
-    if x < y:
-        print('x ir mazāks par y')
-    else:
-        print('x ir lielāks par y')
+4.  
+if ( saliktais ) nosaciijums :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+elif ( saliktais ) nosaciijums :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+else :  
+   vismaz_viena_darbiiba  
+   var_buut_vairaakas_darbiibas  
+darbiiba_aarpus_nosaciijuma_operatora  
+
+
+if x > 0 :  
+    print('x ir pozitīvs')  
+
+if x < y:  
+    print('x ir mazāks par y')  
+elif x > y:  
+    print('x ir lielāks par y')  
+else:  
+    print('x u  y ir vienādi')  
+
+if choice == 'a':  
+    print('Bad guess')  
+elif choice == 'b':  
+    print('Good guess')  
+elif choice == 'c':  
+    print('Close, but not correct')  
+
+if x == y:  
+    print('x un y ir vienādi')  
+else:  
+    if x < y:  
+        print('x ir mazāks par y')  
+    else:  
+        print('x ir lielāks par y')  
 
 
 
