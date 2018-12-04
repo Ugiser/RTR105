@@ -162,7 +162,7 @@ Definē kurš interpretētājs tiek izmantots
 
 integer (int) - vesels skaitlis
 string (str) - simbolu virkne
-float - skaitļi ar komatu
+floating-point numbers (float) - skaitļi ar komatu
 >>>print() - Izvada informāciju
 >>>type() - Nosaka vērtības veidu (str,int,..)
 Skaitļus var nosaukt par simbolu virkni
@@ -178,6 +178,9 @@ Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:
 
 Mainīgajiem piemīt konkrēta vērtība
 Mainīgo nosaukums nesākas ar ciparu, nesatur neatbilstošu simbolu
+Pareizi: spam eggs spam23 _speed
+Nepareizi: 23spam #sign var.12
+Atšķirīgi: spam Spam SPAM
 Ar _ parasti atdala vairākus vārdus
 variable='name'
 n=7
@@ -193,21 +196,126 @@ continue  finally   is        raise
 def       for       lambda    return
 
 >>>input()
+Pieprasa ievadīt vērtību ar tastatūru
+>>> inp = input()
+Something
+>>> print(inp)
+Something
+
+\n jauna līnija
+#- komentāri
+
+Mainīgos parasti nosauc atbilstoši uzdevuma dotajiem lielumiem
+hours = 35.0
+rate = 12.50
+pay = hours * rate
+print(pay)
+
+SyntaxError: invalid syntax - sintakses kļūda
+NameError: name 'principle' is not defined - mainīgā definēšanas kļūda
+
+### Nosacījumi
+
+Nosacījumos izmantojamās salīdzināšanas operācijas:
+> - lielāks
+< - mazāks
+== - vienāds
+>= - lielāks vai vienāds
+<= - mazāks vai vienāds
+!= - nav vienāds
+
+Vienkāršs piemērs:
+print "Ievadiet skaitli"
+skaitlis = inpeut()
+if skaitlis>=0:
+print "Pozitivs skaitlis"
+else:
+print "Negativs skaitlis"
+
+True - Patiess
+False - Aplams
+Abi ietilpst bool tipā
+>>> type(True)
+<class 'bool'>
+>>> type(False)
+<class 'bool'>
+
+and - un
+or - vai
+not - ne
+
+#### Nosacījuma operators if
+
+▶ if vienmēr satur nosacījumu un : simbolu beigās
+▶ elif vienmēr pieder kādam if
+▶ elif vienmēr satur nosacījumu un : simbolu beigās
+▶ elif var nebūt / var būt viens / var būt vairāki
+▶ else vienmēr pieder kādam if
+▶ else nesatur nosacījumu un satur: simbolu beigās
+▶ else var nebūt / var būt viens un vienmēr ir beigās
 
 
+1.
+if ( saliktais ) nosaciijums :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+darbiiba_aarpus_nosaciijuma_operatora
+
+2.
+if ( saliktais ) nosaciijums :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+elif ( saliktais ) nosaciijums :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+darbiiba_aarpus_nosaciijuma_operatora
+
+3.
+if ( saliktais ) nosaciijums :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+else :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+darbiiba_aarpus_nosaciijuma_operatora
+
+4.
+if ( saliktais ) nosaciijums :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+elif ( saliktais ) nosaciijums :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+else :
+   vismaz_viena_darbiiba
+   var_buut_vairaakas_darbiibas
+darbiiba_aarpus_nosaciijuma_operatora
 
 
+if x > 0 :
+    print('x ir pozitīvs')
 
+if x < y:
+    print('x ir mazāks par y')
+elif x > y:
+    print('x ir lielāks par y')
+else:
+    print('x u  y ir vienādi')
 
+if choice == 'a':
+    print('Bad guess')
+elif choice == 'b':
+    print('Good guess')
+elif choice == 'c':
+    print('Close, but not correct')
 
-
-
-
-
-
-
-
-
+if x == y:
+    print('x un y ir vienādi')
+else:
+    if x < y:
+        print('x ir mazāks par y')
+    else:
+        print('x ir lielāks par y')
 
 
 
