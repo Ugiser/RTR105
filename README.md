@@ -168,12 +168,12 @@ type() - Nosaka vērtības veidu (str,int,..)
 Skaitļus var nosaukt par simbolu virkni  
 
 Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:  
-+- saskaitīšana  
-–- atņemšana  
-*- reizināšana  
-/- dalīšana  
-%- atlikums no dalīšanas  
-** - kāpināšana  
++ saskaitīšana  
+– atņemšana  
+* reizināšana  
+/ dalīšana  
+% atlikums no dalīšanas  
+** kāpināšana  
 + un * strādā arī ar simbolu virknēm   
 
 Mainīgajiem piemīt konkrēta vērtība  
@@ -217,12 +217,12 @@ NameError: name 'principle' is not defined - mainīgā definēšanas kļūda
 ### Nosacījumi  
 
 Nosacījumos izmantojamās salīdzināšanas operācijas:  
->- lielāks  
-< - mazāks  
-== - vienāds  
->= - lielāks vai vienāds  
-<= - mazāks vai vienāds  
-!= - nav vienāds  
+> lielāks  
+<  mazāks  
+== vienāds  
+>= lielāks vai vienāds  
+<= mazāks vai vienāds  
+!= nav vienāds  
 
 Vienkāršs piemērs:  
 print "Ievadiet skaitli"  
@@ -234,10 +234,11 @@ print "Negativs skaitlis"
 
 True - Patiess  
 False - Aplams  
-Abi ietilpst bool tipā  
->>> type(True)  
+Abi ietilpst bool tipā 
+
+type(True)  
 <class 'bool'>  
->>> type(False)  
+type(False)  
 <class 'bool'>  
 
 and - un  
@@ -257,38 +258,38 @@ not - ne
 
 1.  
 if ( saliktais ) nosaciijums :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_nosaciijuma_operatora  
 
 2.  
 if ( saliktais ) nosaciijums :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 elif ( saliktais ) nosaciijums :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_nosaciijuma_operatora  
 
 3.  
 if ( saliktais ) nosaciijums :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 else :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_nosaciijuma_operatora  
 
 4.  
 if ( saliktais ) nosaciijums :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 elif ( saliktais ) nosaciijums :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 else :  
-   vismaz_viena_darbiiba  
-   var_buut_vairaakas_darbiibas  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_nosaciijuma_operatora  
 
 
@@ -310,12 +311,12 @@ elif choice == 'c':
 ___print('Close, but not correct')  
 
 if x == y:  
-    print('x un y ir vienādi')  
+____print('x un y ir vienādi')  
 else:  
-    if x < y:  
-        print('x ir mazāks par y')  
-    else:  
-        print('x ir lielāks par y')  
+____if x < y:  
+________print('x ir mazāks par y')  
+____else:  
+________print('x ir lielāks par y')  
 
 
 
