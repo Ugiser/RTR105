@@ -156,7 +156,52 @@ Klonē eksistējošu repozitāriju
 Definē kurš interpretētājs tiek izmantots
 
 ## Python programmēšana  
-### Variables, expressions and statements  
+### Mainīgie, izteiksmes, paziņojumi
+
+>python - Palaiž programmēšanas vidi
+
+integer (int) - vesels skaitlis
+string (str) - simbolu virkne
+float - skaitļi ar komatu
+>>>print() - Izvada informāciju
+>>>type() - Nosaka vērtības veidu (str,int,..)
+Skaitļus var nosaukt par simbolu virkni
+
+Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:
++ - saskaitīšana
+– - atņemšana
+* - reizināšana
+/ - dalīšana
+% - atlikums no dalīšanas
+** - kāpināšana
++ un * strādā arī ar simbolu virknēm 
+
+Mainīgajiem piemīt konkrēta vērtība
+Mainīgo nosaukums nesākas ar ciparu, nesatur neatbilstošu simbolu
+Ar _ parasti atdala vairākus vārdus
+variable='name'
+n=7
+k=2.5
+
+33 Python atslēgas vārdi
+and       del       from      None      True
+as        elif      global    nonlocal  try
+assert    else      if        not       while
+break     except    import    or        with
+class     False     in        pass      yield
+continue  finally   is        raise
+def       for       lambda    return
+
+>>>input()
+
+
+
+
+
+
+
+
+
 
 
 
