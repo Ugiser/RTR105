@@ -158,13 +158,13 @@ Definē kurš interpretētājs tiek izmantots
 ## Python programmēšana    
 ### Mainīgie, izteiksmes, paziņojumi  
 
->python - Palaiž programmēšanas vidi  
+python - Palaiž programmēšanas vidi  
 
 integer (int) - vesels skaitlis  
 string (str) - simbolu virkne  
 floating-point numbers (float) - skaitļi ar komatu  
->>>print() - Izvada informāciju  
->>>type() - Nosaka vērtības veidu (str,int,..)  
+print() - Izvada informāciju  
+type() - Nosaka vērtības veidu (str,int,..)  
 Skaitļus var nosaukt par simbolu virkni  
 
 Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:  
@@ -195,11 +195,11 @@ class     False     in        pass      yield
 continue  finally   is        raise  
 def       for       lambda    return  
 
->>>input()  
+input()  
 Pieprasa ievadīt vērtību ar tastatūru  
->>> inp = input()  
+>>inp = input()  
 Something  
->>> print(inp)  
+>>print(inp)  
 Something  
 
 \n jauna līnija  
