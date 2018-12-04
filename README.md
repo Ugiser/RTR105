@@ -174,7 +174,7 @@ Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:
 '/'  dalīšana  
 '%'  atlikums no dalīšanas  
 ** kāpināšana  
-+ un * strādā arī ar simbolu virknēm   
+'+' un '*' strādā arī ar simbolu virknēm   
 
 Mainīgajiem piemīt konkrēta vērtība  
 Mainīgo nosaukums nesākas ar ciparu, nesatur neatbilstošu simbolu  
@@ -197,9 +197,9 @@ def       for       lambda    return
 
 input()  
 Pieprasa ievadīt vērtību ar tastatūru  
-inp = input()  
+__inp = input()  
 Something  
-print(inp)  
+__print(inp)  
 Something  
 
 \n jauna līnija  
@@ -225,20 +225,20 @@ Nosacījumos izmantojamās salīdzināšanas operācijas:
 "!=" nav vienāds  
 
 Vienkāršs piemērs:  
-print "Ievadiet skaitli"  
+__print "Ievadiet skaitli"  
 skaitlis = input()  
 if skaitlis>=0:  
-print "Pozitivs skaitlis"  
+__print "Pozitivs skaitlis"  
 else:  
-print "Negativs skaitlis"  
+__print "Negativs skaitlis"  
 
 True - Patiess  
 False - Aplams  
 Abi ietilpst bool tipā 
 
-type(True)  
+__type(True)  
 <class 'bool'>  
-type(False)  
+__type(False)  
 <class 'bool'>  
 
 and - un  
