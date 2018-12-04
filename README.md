@@ -186,7 +186,7 @@ variable='name'
 n=7  
 k=2.5  
 
-33 Python atslēgas vārdi  
+33 Python atslēgas vārdi:  
 and       del       from      None      True  
 as        elif      global    nonlocal  try  
 assert    else      if        not       while  
@@ -217,7 +217,7 @@ NameError: name 'principle' is not defined - mainīgā definēšanas kļūda
 ### Nosacījumi  
 
 Nosacījumos izmantojamās salīdzināšanas operācijas:  
-> - lielāks  
+>- lielāks  
 < - mazāks  
 == - vienāds  
 >= - lielāks vai vienāds  
