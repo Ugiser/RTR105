@@ -168,11 +168,11 @@ type() - Nosaka vērtības veidu (str,int,..)
 Skaitļus var nosaukt par simbolu virkni  
 
 Programmēšanas valodā Python ir pieejamas šādas aritmētiskās darbības:  
-+ saskaitīšana  
-– atņemšana  
-* reizināšana  
-/ dalīšana  
-% atlikums no dalīšanas  
++  saskaitīšana  
+–  atņemšana  
+*  reizināšana  
+/  dalīšana  
+%  atlikums no dalīšanas  
 ** kāpināšana  
 + un * strādā arī ar simbolu virknēm   
 
@@ -217,7 +217,7 @@ NameError: name 'principle' is not defined - mainīgā definēšanas kļūda
 ### Nosacījumi  
 
 Nosacījumos izmantojamās salīdzināšanas operācijas:  
-> lielāks  
+">" lielāks  
 <  mazāks  
 == vienāds  
 >= lielāks vai vienāds  
