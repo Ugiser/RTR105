@@ -385,7 +385,7 @@ darbiiba_aarpus_funkcijas_apraksta
 
 Programmēšanas valodā Python ir divu veidu cikli: while (kamēr) cikls un for (priekš) cikls.  
 
-## while
+#### while
 
 n = 5  
 while n > 0:  
@@ -396,7 +396,7 @@ print('Bum!')
 "Kamēr n ir lielāks par 0, izvada n vērtību un to samazina par 1.   
 Kad tiek līdz 0, pārtrauc while un izvada vārdu Bum!"  
 
-## for  
+#### for  
 
 Kods:  
 friends = ['Joseph', 'Glenn', 'Sally']  
