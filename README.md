@@ -187,6 +187,7 @@ n=7
 k=2.5  
 
 33 Python atslēgas vārdi:  
+
 and       del       from      None      True  
 as        elif      global    nonlocal  try  
 assert    else      if        not       while  
@@ -344,13 +345,13 @@ math.sqrt(5)
 
 def - jaunas funkcijas definēšana  
 
+def nosaukums(argumenti):
+___funkcijas operatori
+___return rezultāts
+
 def print_lyrics(): - izveidota jauna funkcija ar nosaukumu print_lyrics()  
 def repeat_lyrics(): - funkcija darbosies 2 reizes  
 ___print_twice('Spam') - vērtība tiks atkāŗtoti izvadīta   
-
-def print_lyrics():    
-___print("I'm a lumberjack, and I'm okay.")    
-___print('I sleep all night and I work all day.')    
 
 PIEMĒRI:
 
@@ -380,8 +381,49 @@ ___var_buut_vairaakas_darbiibas
 ___return mainiigais (ie)  
 darbiiba_aarpus_funkcijas_apraksta  
 
+### Cikli
 
+Programmēšanas valodā Python ir divu veidu cikli: while (kamēr) cikls un for (priekš) cikls.  
 
+## while
+
+n = 5  
+while n > 0:  
+___print(n)  
+___n = n - 1  
+print('Bum!') 
+
+"Kamēr n ir lielāks par 0, izvada n vērtību un to samazina par 1.   
+Kad tiek līdz 0, pārtrauc while un izvada vārdu Bum!"  
+
+## for  
+
+Kods:  
+friends = ['Joseph', 'Glenn', 'Sally']  
+for friend in friends:  
+___print('Happy New Year:', friend) 
+print('Done!')  
+
+Izvada:  
+Happy New Year: Joseph  
+Happy New Year: Glenn  
+Happy New Year: Sally  
+Done!  
+
+LIELĀKĀS UN MAZĀKĀS VĒRTĪBAS:  
+largest = None  
+print('Before:', largest)  
+for itervar in [3, 41, 12, 9, 74, 15]:  
+___if largest is None or itervar > largest :  
+______largest = itervar  
+___print('Loop:', itervar, largest)  
+print('Largest:', largest)  
+
+### Simbolu rindas
+
+### Darbs ar failiem
+
+### Teilora rindas
 
 
 
