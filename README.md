@@ -345,34 +345,34 @@ math.sqrt(5)
 def - jaunas funkcijas definēšana  
 def print_lyrics(): - izveidota jauna funkcija ar nosaukumu print_lyrics()  
 def repeat_lyrics(): - funkcija darbosies 2 reizes  
-___print_twice('Spam') - vērtība tiks atkāŗtoti izvadīta  
+___print_twice('Spam') - vērtība tiks atkāŗtoti izvadīta   
 
-def print_lyrics():  
-    print("I'm a lumberjack, and I'm okay.")  
-    print('I sleep all night and I work all day.')  
+def print_lyrics():    
+___print("I'm a lumberjack, and I'm okay.")    
+___print('I sleep all night and I work all day.')    
 
 
-def␣ funkcijas_vaards () :
-␣␣␣␣ vismaz_viena_darbiiba
-␣␣␣␣ var_buut_vairaakas_darbiibas
-darbiiba_aarpus_funkcijas_apraksta
+def funkcijas_vaards () :  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
+darbiiba_aarpus_funkcijas_apraksta  
 
-def␣ funkcijas_vaards ( arguments (i)) :
-␣␣␣␣ vismaz_viena_darbiiba
-␣␣␣␣ var_buut_vairaakas_darbiibas
-darbiiba_aarpus_funkcijas_apraksta
+def funkcijas_vaards ( arguments (i)) :  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
+darbiiba_aarpus_funkcijas_apraksta  
 
-def␣ funkcijas_vaards () :
-␣␣␣␣ vismaz_viena_darbiiba
-␣␣␣␣ var_buut_vairaakas_darbiibas
-␣␣␣␣ return␣ mainiigais (ie)
-darbiiba_aarpus_funkcijas_apraksta
+def funkcijas_vaards () :  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
+___return mainiigais (ie)  
+darbiiba_aarpus_funkcijas_apraksta  
 
-def␣ funkcijas_vaards ( arguments (i)) :
-␣␣␣␣ vismaz_viena_darbiiba
-␣␣␣␣ var_buut_vairaakas_darbiibas
-␣␣␣␣ return␣ mainiigais (ie)
-darbiiba_aarpus_funkcijas_apraksta
+def funkcijas_vaards ( arguments (i)) :  
+___vismaz_viena_darbiiba  
+___var_buut_vairaakas_darbiibas  
+___return mainiigais (ie)  
+darbiiba_aarpus_funkcijas_apraksta  
 
 
 
