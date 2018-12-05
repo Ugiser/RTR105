@@ -255,6 +255,7 @@ not - ne
 ▶ else nesatur nosacījumu un satur: simbolu beigās  
 ▶ else var nebūt / var būt viens un vienmēr ir beigās  
 
+PIEMĒRI:
 
 1.  
 if ( saliktais ) nosaciijums :  
@@ -292,10 +293,11 @@ ___vismaz_viena_darbiiba
 ___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_nosaciijuma_operatora  
 
-
+5.
 if x > 0 :  
 ____print('x ir pozitīvs')  
 
+6.
 if x < y:  
 ____print('x ir mazāks par y')  
 elif x > y:  
@@ -303,6 +305,7 @@ ____print('x ir lielāks par y')
 else:  
 ____print('x u  y ir vienādi')  
 
+7.
 if choice == 'a':  
 ___print('Bad guess')  
 elif choice == 'b':  
@@ -310,6 +313,7 @@ ___print('Good guess')
 elif choice == 'c':  
 ___print('Close, but not correct')  
 
+8.
 if x == y:  
 ____print('x un y ir vienādi')  
 else:  
@@ -318,7 +322,57 @@ ________print('x ir mazāks par y')
 ____else:  
 ________print('x ir lielāks par y')  
 
+### Funkcijas
 
+max() - izvada vislielāko vērtību  
+min() - izvada vismazāko vērtību  
+len() - izvada elementu skaitu  
+int() - pārvērš vērtību par veselu skaitli (ja var)  
+float() - pārvērš vērtību par daļskaitli  
+string() - pārvērš vērtību par simbolu virkni  
+
+___import math - pievienot matemātiskās funkcijas  
+
+___print(math)  
+<module 'math' (built-in)>  
+
+MATEMĀTISKO FUNKCIJU PIEMĒRI:  
+decibels = 10 * math.log10(ratio)  
+height = math.sin(radians)  
+radians = degrees / 360.0 * 2 * math.pi
+math.sqrt(5)
+
+def - jaunas funkcijas definēšana  
+def print_lyrics(): - izveidota jauna funkcija ar nosaukumu print_lyrics()  
+def repeat_lyrics(): - funkcija darbosies 2 reizes  
+___print_twice('Spam') - vērtība tiks atkāŗtoti izvadīta  
+
+def print_lyrics():  
+    print("I'm a lumberjack, and I'm okay.")  
+    print('I sleep all night and I work all day.')  
+
+
+def␣ funkcijas_vaards () :
+␣␣␣␣ vismaz_viena_darbiiba
+␣␣␣␣ var_buut_vairaakas_darbiibas
+darbiiba_aarpus_funkcijas_apraksta
+
+def␣ funkcijas_vaards ( arguments (i)) :
+␣␣␣␣ vismaz_viena_darbiiba
+␣␣␣␣ var_buut_vairaakas_darbiibas
+darbiiba_aarpus_funkcijas_apraksta
+
+def␣ funkcijas_vaards () :
+␣␣␣␣ vismaz_viena_darbiiba
+␣␣␣␣ var_buut_vairaakas_darbiibas
+␣␣␣␣ return␣ mainiigais (ie)
+darbiiba_aarpus_funkcijas_apraksta
+
+def␣ funkcijas_vaards ( arguments (i)) :
+␣␣␣␣ vismaz_viena_darbiiba
+␣␣␣␣ var_buut_vairaakas_darbiibas
+␣␣␣␣ return␣ mainiigais (ie)
+darbiiba_aarpus_funkcijas_apraksta
 
 
 
