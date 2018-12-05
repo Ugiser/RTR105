@@ -354,26 +354,26 @@ ___print('I sleep all night and I work all day.')
 
 PIEMĒRI:
 
-1.  
+1.
 def funkcijas_vaards () :  
 ___vismaz_viena_darbiiba  
 ___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_funkcijas_apraksta  
 
-2.  
+2.
 def funkcijas_vaards ( arguments (i)) :  
 ___vismaz_viena_darbiiba  
 ___var_buut_vairaakas_darbiibas  
 darbiiba_aarpus_funkcijas_apraksta  
 
-3.  
+3.
 def funkcijas_vaards () :  
 ___vismaz_viena_darbiiba  
 ___var_buut_vairaakas_darbiibas  
 ___return mainiigais (ie)  
 darbiiba_aarpus_funkcijas_apraksta  
 
-4.  
+4.
 def funkcijas_vaards ( arguments (i)) :  
 ___vismaz_viena_darbiiba  
 ___var_buut_vairaakas_darbiibas  
