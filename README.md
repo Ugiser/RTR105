@@ -515,6 +515,14 @@ ___print(len(inp))
 ___print(inp[:20])  
 From stephen.marquar  
 
+TEKSTA MEKLĒŠANA FAILĀ:  
+fhand = open('mbox-short.txt')  
+count = 0  
+for line in fhand:  
+___line = line.rstrip()   
+___if line.startswith('From:'):  
+______print(line)  
+
 
 ### Teilora rindas  
 
