@@ -486,6 +486,36 @@ Fails – tā ir baitu (datu) virkne, kura tiek uzglabāta ārējā atmiņā
 nosaukuma. Datus no faila iespējams nolasīt, kā arī tajā ierakstīt, tomēr pirms tā failu  
 jāatver (open) un pēc darba beigām jāaizver (close).  
 
+"\n" PIELIETOŠANA:  
+___stuff = 'Hello\nWorld!'  
+___stuff  
+'Hello\nWorld!'  
+___print(stuff)  
+Hello  
+World!  
+___stuff = 'X\nY'  
+___print(stuff)  
+X  
+Y  
+___len(stuff)  
+3  
+
+RINDU SASKAITĪŠĀNA FAILĀ:  
+fhand = open('mbox-short.txt')  
+count = 0  
+for line in fhand:  
+___count = count + 1  
+print('Line Count:', count)  
+
+ĪSU SIMBOLU RINDU LASĪŠANA:  
+___fhand = open('mbox-short.txt')  
+___inp = fhand.read()  
+___print(len(inp))  
+94626  
+___print(inp[:20])  
+From stephen.marquar  
+
+
 ### Teilora rindas  
 
 
