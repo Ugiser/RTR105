@@ -384,6 +384,8 @@ darbiiba_aarpus_funkcijas_apraksta
 ### Cikli
 
 Programmēšanas valodā Python ir divu veidu cikli: while (kamēr) cikls un for (priekš) cikls.  
+Galvenā datoru izmantošanas priekšrocība ir, ka tie spēj nenogurstot nepārtraukti  
+atkārtot vienas un tās pašas darbības.  
 
 #### while
 
@@ -410,7 +412,7 @@ Happy New Year: Glenn
 Happy New Year: Sally  
 Done!  
 
-LIELĀKĀS UN MAZĀKĀS VĒRTĪBAS:  
+LIELĀKĀS VAI MAZĀKĀS VĒRTĪBAS:  
 largest = None  
 print('Before:', largest)  
 for itervar in [3, 41, 12, 9, 74, 15]:  
@@ -420,6 +422,63 @@ ___print('Loop:', itervar, largest)
 print('Largest:', largest)  
 
 ### Simbolu rindas
+
+Teksta rindas sastāv no atsevišķiem simboliem, katrs no kuriem apzīmē kādu burtu,  
+skaitli, speciālo simbolu utt.  
+Simboli ar kodiem no 0 līdz 127 ir standartizēti un tiek saukti par simbolu kopu ASCII  
+(American Standard Code for Information Interchange – amerikāņu standarta kods informācijas apmaiņai).
+
+word.upper() - visus birtus izvada kā lielos sākuma burtus  
+line.lower() - visus birtus izvada kā mazos burtus  
+word.find() - atrod simbola atrašanās vietu  
+line.strip() - nodzēš atstarpes   
+line.startswith() - nosaka, vai virkne sākas ar attiecīgo simbolu  
+
+len() - izvada simbolu skaitu  
+___name = 'word'  
+___len(name)  
+4  
+
+Lai no mainīgā  “izgrieztu” daļu, ja zināma gan sākuma, gan beigu “atstarpe”,  
+jāizmanto konstrukciju:  
+teksts[sākums:beigas]  
+
+Ja beigu “atstarpe” nav norādīta, t.i., konstrukcija tiek pierakstīta formā  
+teksts[sākums:]  
+Python uzskata, ka domāta pēdēja “atstarpe” teksta rindā  
+
+Ja nav norādīta sākuma “atstarpe”, t.i., konstrukcija tiek pierakstīta formā  
+teksts[:beigas]  
+Python uzskata, ka domāta atstarpe ar numuru 0   
+
+in - nosaka, vai 2. simbolu virknē ir 1. virknes simboli
+
+___'a' in 'aka'
+True
+___'b' in 'aka'
+False
+
+PIEMĒRI:  
+
+1.  
+___data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'  
+___atpos = data.find('@')  
+___print(atpos)  
+21  
+___sppos = data.find(' ',atpos)  
+___print(sppos)  
+31  
+___host = data[atpos+1:sppos]  
+___print(host)  
+uct.ac.za  
+
+2.  
+%d - ievieto simbolu virkni tekstā   
+% - norāda, kādu simbolu virkni ievieto %d vietā  
+___camels = 42  
+___'%d' % camels  
+'42'  
+
 
 ### Darbs ar failiem
 
