@@ -479,8 +479,12 @@ ___camels = 42
 ___'%d' % camels  
 '42'  
 
-
 ### Darbs ar failiem  
+
+Fails – tā ir baitu (datu) virkne, kura tiek uzglabāta ārējā atmiņā  
+(piemēram, cietajā diskā vai kompaktdiskā) un pie kuras iespējams piekļūt pēc tās  
+nosaukuma. Datus no faila iespējams nolasīt, kā arī tajā ierakstīt, tomēr pirms tā failu  
+jāatver (open) un pēc darba beigām jāaizver (close).  
 
 ### Teilora rindas  
 
