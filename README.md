@@ -421,12 +421,12 @@ ______largest = itervar
 ___print('Loop:', itervar, largest)  
 print('Largest:', largest)  
 
-### Simbolu rindas
+### Simbolu rindas  
 
 Teksta rindas sastāv no atsevišķiem simboliem, katrs no kuriem apzīmē kādu burtu,  
 skaitli, speciālo simbolu utt.  
 Simboli ar kodiem no 0 līdz 127 ir standartizēti un tiek saukti par simbolu kopu ASCII  
-(American Standard Code for Information Interchange – amerikāņu standarta kods informācijas apmaiņai).
+(American Standard Code for Information Interchange – amerikāņu standarta kods informācijas apmaiņai).  
 
 word.upper() - visus birtus izvada kā lielos sākuma burtus  
 line.lower() - visus birtus izvada kā mazos burtus  
@@ -453,10 +453,10 @@ Python uzskata, ka domāta atstarpe ar numuru 0
 
 in - nosaka, vai 2. simbolu virknē ir 1. virknes simboli
 
-___'a' in 'aka'
-True
-___'b' in 'aka'
-False
+___'a' in 'aka'  
+True  
+___'b' in 'aka'  
+False  
 
 PIEMĒRI:  
 
@@ -480,9 +480,9 @@ ___'%d' % camels
 '42'  
 
 
-### Darbs ar failiem
+### Darbs ar failiem  
 
-### Teilora rindas
+### Teilora rindas  
 
 
 
