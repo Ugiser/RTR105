@@ -523,8 +523,16 @@ ___line = line.rstrip()
 ___if line.startswith('From:'):  
 ______print(line)  
 
-
 ### Teilora rindas  
+
+### Zīmēšana Python'ā
+
+### Skaitliskās metodes - saknes meklēšana
+
+### Skaitliskās metodes - skaitliskā diferencēšana
+
+
+
 
 
 
