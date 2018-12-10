@@ -527,7 +527,6 @@ ______print(line)
 
 SIN(x)
 
-# -*- coding: utf-8 -*- 
 from math import sin  
 def mans_sinuss(x):  
 ___k = 0  
