@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import math
 
 def funkcija(x):
-    return math.sin(x)/x**2 - math.cos(x)/x
+    return math.sin(x)/x**2 - math.cos(x)/x 
 vecfunc = np.vectorize(funkcija)
 
 d = np.arange(-40, 40, 0.01)
