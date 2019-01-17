@@ -1,5 +1,5 @@
 def mana_funkcija(x):
-    return sin(x)/x**2 - cos(x)/(x)
+    return sin(x)/x**2 - cos(x)/(x) #Besseļa funkcijas j1(x) alternatīvā forma
 
 import sys
 sys.path.append('/usr/local/anaconda3/lib/python3.6/site-packages')
