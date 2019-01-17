@@ -5,7 +5,7 @@ from numpy import sin, cos
 
 x = np.linspace(0.1,15,1001)
 
-f = lambda x: sin(x)/x**2 - cos(x)/x
+f = lambda x: sin(x)/x**2 - cos(x)/x #Besseļa funkcijas j1(x) alternatīvā forma
 
 plt.figure()
 plt.plot(x, f(x), linewidth=3)
