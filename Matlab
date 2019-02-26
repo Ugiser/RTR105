@@ -1,0 +1,109 @@
+\documentclass[a4paper,11pt]{article}
+% LV  pakas
+\usepackage{polyglossia}
+
+\pagestyle{empty}
+\usepackage{graphicx}
+
+% lapas izmeeri
+\setlength{\textwidth}{172mm}
+\setlength{\textheight}{245mm}
+\setlength{\evensidemargin}{-5mm}
+\setlength{\oddsidemargin}{-5mm}
+\setlength{\topmargin}{-12mm}
+\begin{document}
+\begin{flushright}
+Vārds
+Uzvārds
+
+Apliecības numurs
+
+Grupa,
+Kurss
+\end{flushright}
+\begin{center}
+\begin{Large}
+\textbf{1.Laboratorijas darbs  EIMDR}
+\end{Large}
+
+\begin{large}
+\textbf{Darba nosaukums}
+\end{large}
+\end{center}
+\begin{description}
+
+\item \underline{Darba uzdevums:}
+\begin{itemize}
+\item apakšuzdevums 1
+
+\item apakšuzdevums 2
+
+\end{itemize}
+
+\underline{Scenārijs:}
+
+
+
+
+
+\begin{minipage}[c]{0.5\linewidth} 
+\begin{Large}\verb=funkcija lisazu_figuras.m=\end{Large}
+
+\begin{verbatim}
+function lisazu_figuras2(phi)
+%ziimee Lisazhu figuras
+%izveidots 0.l.d.
+t = 0:0.01:1;
+f1 = 3; f2 = 4;
+x = cos(2*pi*f1*t);
+y = sin(2*pi*f2*t+phi);
+plot(x,y)
+axis('square')
+\end{verbatim} 
+
+\begin{Large}\verb=scenārijs animācijai=\end{Large}
+
+\begin{verbatim}
+for phic = 0:pi/100:2*pi
+lisazu_figuras2(phic)
+pause(0.1)
+end
+
+
+\end{verbatim}
+\end{minipage}
+\begin{minipage}[c]{0.5\linewidth}
+\centering
+\includegraphics[width=0.9\linewidth]{bilde}
+
+
+\end{minipage}
+
+
+
+\item \underline{Kvadrātiskas parabolas koeficienti:}
+\begin{verbatim}
+C = [0.09 9 8]
+\end{verbatim}
+
+\item\underline{Secinājumi:}
+
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+Secinājumi:
+\end{description}
+\end{document}
